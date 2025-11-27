@@ -152,7 +152,7 @@ supportForm.addEventListener('submit', (e) => {
     // If form is valid, submit (in a real app, this would send to a server)
     if (isValid) {
         // Show success message
-        showSuccessMessage(supportForm, 'Thank you for your support! We appreciate your contribution.');
+        showSuccessMessage(supportForm, 'Thank you for your support!');
         
         // Reset form
         supportForm.reset();
